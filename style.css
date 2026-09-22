@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color: #081735;
+    background-image: url('gambar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #979ca1;
     min-height: 100vh;
     display: flex;

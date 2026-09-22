@@ -6,16 +6,20 @@
 }
 
 body {
-    background-image: url('belitong.jpg');
+    /* Mengambil file gambar (pastikan file gambar berada di folder yang sama dengan style.css) */
+    background-image: url('egi.jpg');
+    
+    /* Mengatur agar gambar memenuhi seluruh layar tanpa terpotong berlebihan */
     background-size: cover;
+    
+    /* Menempatkan posisi gambar tepat di tengah-tengah layar */
     background-position: center;
+    
+    /* Mencegah gambar mengulang/repetisi jika ukurannya kecil */
     background-repeat: no-repeat;
-    color: #979ca1;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    
+    /* Membuat background diam saat halaman di-scroll */
+    background-attachment: fixed;
 }
 
 .card {
